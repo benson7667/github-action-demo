@@ -2,8 +2,8 @@ name: Github Action Demo
 
 on:
   push:
-    branches:
-      - master
+    tags:
+      - v*
 
 jobs:
   deploy:
